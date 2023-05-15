@@ -105,7 +105,7 @@ And that seems to work as well!
 
 I had experience using all the previous techonogies as I am running a home server running docker containers and Caddy web server for one website. I have done Salt states in one course and I liked it quite a bit so I decided to combine these three different technologies together.
 
-The project ended up being a bit harder than expected, but with a help from the internet, I managed to create the project like I initially wanted. There were a bit too much arbitrary shell commands and too little internal Salt commands than I hoped for, but I managed to make majority of them idempotent so I think it was a decent end result for both.
+The project ended up being a bit harder than expected, but with a help from the internet, I managed to create the project like I initially wanted. There were a bit too much arbitrary shell commands and too little internal Salt commands than I hoped for, but I managed to make majority of them idempotent so I think it was a decent end result.
 
 
 ### [Video](https://haagahelia-my.sharepoint.com/personal/bgo801_myy_haaga-helia_fi/_layouts/15/stream.aspx?id=%2Fpersonal%2Fbgo801_myy_haaga-helia_fi%2FDocuments%2FKazam_screencast_00006.mp4)
