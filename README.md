@@ -89,16 +89,23 @@ As I mentioned previously that the states should be idempotent, meaning they wil
 
 Here we can see that again 21 states succeeded, but only one change was made and total time of running was only 3.8 seconds. From this we can determine that 20 of my states are idempotent, which is also true. I was unable to make one state idempotent. 
 
+### Results
+
+Now when the init.sls run is finished, let's look at the results. I should have a two docker containers running and they should be accessible with a browser with a url Localhost.
+
+![docker](images/docker.png)
+
+As we can see there are now two docker containers running. One for mongodb and for the server. Let's browse to localhost to see if the Caddy web server is working correctly. 
+
+![browser](images/browser.png)
+
+And that seems to work as well!
 
 ### In Conclusion
 
 I had experience using all the previous techonogies as I am running a home server running docker containers and Caddy web server for one website. I have done Salt states in one course and I liked it quite a bit so I decided to combine these three different technologies together.
 
 The project ended up being a bit harder than expected, but with a help from the internet, I managed to create the project like I initially wanted. There were a bit too much arbitrary shell commands and too little internal Salt commands than I hoped for, but I managed to make majority of them idempotent so I think it was a decent end result for both.
-
-
-
-![vsCode_in_venv](https://user-images.githubusercontent.com/112398757/236719484-3be45344-3eb5-4aba-a7ba-51f00ae76a30.JPG)
 
 
 ### [Video](https://haagahelia-my.sharepoint.com/personal/bgo801_myy_haaga-helia_fi/_layouts/15/stream.aspx?id=%2Fpersonal%2Fbgo801_myy_haaga-helia_fi%2FDocuments%2FKazam_screencast_00006.mp4)
